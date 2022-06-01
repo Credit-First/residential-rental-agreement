@@ -10,14 +10,13 @@ const App = () => {
     WebViewer(
       {
         path: '/webviewer/lib',
-        // initialDoc: '/files/PDFTRON_about.pdf',
         initialDoc: '/files/template.pdf',
       },
       viewer.current,
     ).then((instance) => {
       const { documentViewer, annotationManager, Annotations } = instance.Core;
 
-      documentViewer.addEventListener('documentLoaded', () => {
+      documentViewer.addEventListener('documentLoaded', () => {npm
         // const rectangleAnnot = new Annotations.RectangleAnnotation({
         //   PageNumber: 1,
         //   // values are in page coordinates with (0, 0) in the top left
