@@ -1,8 +1,7 @@
 {
-  "name": "webviewer-react-sample",
+  "name": "resident-rental-agreement",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://pdftron.github.io/webviewer-react-sample",
   "dependencies": {
     "@pdftron/webviewer": "^8.0.0",
     "react": "^16.6.0",
